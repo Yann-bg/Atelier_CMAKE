@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     }
     else if (argc == 3 && strcmp(argv[1], "car") == 0) {
         char* a = argv[2];
-        double r = _car(atof(a));  // Appel à la nouvelle fonction carree
+        double r = _car(atof(a));  // Appel à la nouvelle fonction
         printf("%lf", r);
     }
     else {
